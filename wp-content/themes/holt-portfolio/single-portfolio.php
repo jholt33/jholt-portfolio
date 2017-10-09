@@ -13,7 +13,7 @@
 		</div>
 	</div>
 
-</section><!-- #page-title end -->
+</section><!-- page-title end -->
 
 <!-- Content
 ============================================= -->
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- .portfolio-single-image end -->
+			</div><!-- portfolio-single-image end -->
 
 			<!-- Portfolio Single Content
 			============================================= -->
@@ -115,11 +115,11 @@
 					 endif;
 				?>
 
-			</div> <!-- #featured work end -->
+			</div> <!-- featured work end -->
 
-		</div> <!-- #container end -->
+		</div> <!-- container end -->
 
-	</div> <!-- #content wrap end -->
+	</div> <!-- content wrap end -->
 
 </section>
 

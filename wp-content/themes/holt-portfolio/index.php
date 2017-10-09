@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<?php
-// the query
-$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+  <?php
+  // the query
+  $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
 
-<?php if ( $wpb_all_query->have_posts() ) : ?>
+  <?php if ( $wpb_all_query->have_posts() ) : ?>
 
   <!-- Content
   ============================================= -->

@@ -63,11 +63,11 @@
 
     </div>
 
-  </div><!-- #copyrights end -->
+  </div> <!-- copyrights end -->
 
-</footer><!-- #footer end -->
+</footer> <!-- footer end -->
 
-</div><!-- #wrapper end -->
+</div> <!-- wrapper end -->
 
 <!-- Go To Top
 ============================================= -->

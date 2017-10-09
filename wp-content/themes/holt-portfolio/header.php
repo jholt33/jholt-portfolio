@@ -3,7 +3,6 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
 
 	<!-- Stylesheets
 	============================================= -->
@@ -24,9 +23,9 @@
 
 <body class="stretched">
 
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="clearfix">
 
 <!-- Header
 ============================================= -->
@@ -43,7 +42,7 @@
       <div id="logo">
         <a href="<?php bloginfo('url');?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"><img src="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"></a>
         <a href="<?php bloginfo('url');?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"><img src="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"></a>
-      </div><!-- #logo end -->
+      </div> <!-- logo end -->
 
       <!-- Primary Navigation
       ============================================= -->
@@ -62,7 +61,6 @@
 
 					?>
 
-
         <!-- Top Search
         ============================================= -->
         <div id="top-search">
@@ -70,12 +68,12 @@
           <form action="<?php echo home_url( '/' ); ?>" method="get" role="search">
             <input type="search" class="form-control" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>">
           </form>
-        </div><!-- #top-search end -->
+        </div> <!-- top-search end -->
 
-      </nav><!-- #primary-menu end -->
+      </nav> <!-- primary-menu end -->
 
-    </div>
+    </div> <!-- container end -->
 
-  </div>
+  </div> <!-- header-wrap end -->
 
-</header><!-- #header end -->
+</header> <!-- header end -->

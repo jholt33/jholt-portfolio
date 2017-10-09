@@ -69,7 +69,7 @@
     							<h1>Sorry, no posts matched your criteria. Try again.</h1>
     						</div>
 
-    					  </section><!-- #page-title end -->
+    					  </section><!-- page-title end -->
 
     				<?php endif; ?>
 

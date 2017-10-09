@@ -20,7 +20,7 @@ get_header(); ?>
 				</ol>
 			</div>
 
-		</section><!-- #page-title end -->
+		</section><!-- page-title end -->
 
 		<!-- Content
 	  ============================================= -->

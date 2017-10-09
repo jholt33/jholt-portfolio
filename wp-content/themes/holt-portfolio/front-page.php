@@ -138,7 +138,6 @@
 								<div class="portfolio-image">
 										<?php the_post_thumbnail(); ?>
 									<div class="portfolio-overlay">
-										<!-- <a href="#" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a> -->
 										<a href="<?php the_permalink(); ?>" class="center-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -156,10 +155,10 @@
 							 endif;
 						?>
 
-					</div><!-- #featured work end -->
+					</div> <!-- featured work end -->
 
-				</div><!-- #container end -->
+				</div> <!-- container end -->
 
-		</section><!-- #content end -->
+		</section> <!-- content end -->
 
 <?php get_footer(); ?>

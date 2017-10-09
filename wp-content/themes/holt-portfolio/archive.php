@@ -20,7 +20,7 @@ get_header(); ?>
 				</ol>
 			</div>
 
-		</section><!-- #page-title end -->
+		</section> <!-- page-title end -->
 
 		<!-- Content
 		============================================= -->
@@ -55,7 +55,6 @@ get_header(); ?>
 							<div class="portfolio-image">
 									<?php the_post_thumbnail(); ?>
 								<div class="portfolio-overlay">
-									<!-- <a href="#" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a> -->
 									<a href="<?php the_permalink(); ?>" class="center-icon"><i class="icon-line-ellipsis"></i></a>
 								</div>
 							</div>
@@ -77,12 +76,12 @@ get_header(); ?>
 							 endif;
 						?>
 
-					</div><!-- #portfolio end -->
+					</div> <!-- portfolio end -->
 
-				</div>
+				</div> <!-- container end -->
 
-			</div>
+			</div> <!-- content-wrap end -->
 
-		</section><!-- #content end -->
+		</section> <!-- content end -->
 
 <?php get_footer(); ?>
