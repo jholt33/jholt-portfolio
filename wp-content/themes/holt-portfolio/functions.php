@@ -161,7 +161,7 @@ function user_the_categories() {
     for ($i = 1; $i < count($cats); $i++) {echo ', ' . $cats[$i]->cat_name ;}
 }
 
-// //// Adds custom icon to nav ///
+// Adds custom icon to nav //
 
 add_filter('wp_nav_menu_objects', 'my_wp_nav_menu_objects', 10, 2);
 
@@ -177,26 +177,20 @@ function my_wp_nav_menu_objects( $items, $args ) {
 		// append icon
 		if( $icon ) {
 
-			$item->title .= ' <i class="'.$icon.'"></i>';
+			$item->title = ' <i class="'.$icon.'"></i>' . $item->title;
 
 		}
 
 	}
-
-
 	// return
 	return $items;
-
 }
 
-// function prefix_nav_icon( $title, $item, $args, $depth ) {
-//   if ( !empty ( $item->$icon ) ) {
-//     $mytitle = $title . '<i class="'. $item->$icon .'"></i>';
-//   }
-//
-//   return $mytitle;
-// }
-// add_filter( 'nav_menu_item_title', 'prefix_nav_icon', 10, 4 );
+// add a favicon to your
+function blog_favicon() {
+	echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.get_bloginfo('wpurl').'/favicon.ico" />';
+}
+add_action('wp_head', 'blog_favicon');
 
 
 ?>
