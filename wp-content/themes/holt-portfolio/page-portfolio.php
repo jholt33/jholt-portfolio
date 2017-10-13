@@ -77,6 +77,6 @@ get_header(); ?>
 
 			</div> <!-- content-wrap end -->
 
-		</section>
+		</section> <!-- content end -->
 
 <?php get_footer(); ?>

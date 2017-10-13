@@ -1,14 +1,6 @@
-<?php
+<?php get_header(); ?>
 
-/*
-*
-Template Name: Portfolio Page
-*
-*/
-
-get_header(); ?>
-
-<!-- Page Title
+		<!-- Page Title
 		============================================= -->
 		<section id="page-title">
 

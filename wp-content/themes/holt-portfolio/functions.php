@@ -141,7 +141,7 @@ class Microdot_Walker_Nav_Menu extends Walker_Nav_Menu {
             $url = $item->url;
         }
 
-        $output .= '<li '. $active_class . '><a href="' . $url . '" >' . $item->title . '</a></li>';
+        $output .= '<li class="sub-menu" '. $active_class . '><a href="' . $url . '"><div>'. $item->title . '</div></a></li>';
     }
 
     public function end_el( &$output, $item, $depth = 0, $args = array() ) {
@@ -159,6 +159,34 @@ function user_the_categories() {
     echo $cats[0]->cat_name;
     // echo the remaining categories, appending separator
     for ($i = 1; $i < count($cats); $i++) {echo ', ' . $cats[$i]->cat_name ;}
+}
+
+//// Adds custom icon to nav ///
+
+add_filter('wp_nav_menu_objects', 'my_wp_nav_menu_objects', 10, 2);
+
+function my_wp_nav_menu_objects( $items, $args ) {
+
+	// loop
+	foreach( $items as &$item ) {
+
+		// vars
+		$icon = get_field('icon', $item);
+
+
+		// append icon
+		if( $icon ) {
+
+			$item->title .= ' <i class="'.$icon.'"></i>';
+
+		}
+
+	}
+
+
+	// return
+	return $items;
+
 }
 
 ?>

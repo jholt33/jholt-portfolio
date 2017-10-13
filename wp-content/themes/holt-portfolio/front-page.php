@@ -9,8 +9,8 @@
 						<div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_directory');?>/images/homepage/desert-sky-01.jpeg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-caption-animate="fadeInUp">Welcome To My Online Portfolio</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">My name is Jeremy Holt. I am a Front-End Developer, Tech Nerd and Guitarist currently residing in the beautiful desert of Phoenix Arizona.</p>
+									<h2 data-caption-animate="fadeInUp">Some Sweet Title</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
 							</div>
 						</div>

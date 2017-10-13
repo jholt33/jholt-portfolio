@@ -41,12 +41,12 @@
       ============================================= -->
       <div id="logo">
         <a href="<?php bloginfo('url');?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"><img src="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"></a>
-        <a href="<?php bloginfo('url');?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"><img src="<?php bloginfo('template_directory');?>/images/fsclogo@2x.png"></a>
+        <a href="<?php bloginfo('url');?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.png"><img src="<?php bloginfo('template_directory');?>/images/logo/fsc-logo.png"></a>
       </div> <!-- logo end -->
 
       <!-- Primary Navigation
       ============================================= -->
-      <nav id="primary-menu">
+      <nav id="primary-menu" class="style-5">
 
 					<?php
 
@@ -55,7 +55,7 @@
 					   'main-nav' => 'Main Navigation',
 					   // Instantiate our class & pass it as an argument
 					   'walker' => new Microdot_Walker_Nav_Menu(),
-						 'container' => false,
+						 'container' => true,
     		 		 'items_wrap' => '<ul>%3$s</ul>'
 					));
 
