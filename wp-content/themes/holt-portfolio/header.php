@@ -51,12 +51,12 @@
 					<?php
 
 					wp_nav_menu(array(
-					    // Whatever you used to register the nav menu with
-					   'main-nav' => 'Main Navigation',
-					   // Instantiate our class & pass it as an argument
-					   'walker' => new Microdot_Walker_Nav_Menu(),
-						 'container' => true,
-    		 		 'items_wrap' => '<ul>%3$s</ul>'
+					   'main-nav' 	 => 'Main Navigation',
+						 'container'   => false,
+						 // 		 'items_wrap'  => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						//  'link_before' => '<div><i class="icon-home2"></i>',
+						//  'link_after'  => '</div>',
+						 'walker' 		=> new Microdot_Walker_Nav_Menu()
 					));
 
 					?>

@@ -161,7 +161,7 @@ function user_the_categories() {
     for ($i = 1; $i < count($cats); $i++) {echo ', ' . $cats[$i]->cat_name ;}
 }
 
-//// Adds custom icon to nav ///
+// //// Adds custom icon to nav ///
 
 add_filter('wp_nav_menu_objects', 'my_wp_nav_menu_objects', 10, 2);
 
@@ -188,5 +188,15 @@ function my_wp_nav_menu_objects( $items, $args ) {
 	return $items;
 
 }
+
+// function prefix_nav_icon( $title, $item, $args, $depth ) {
+//   if ( !empty ( $item->$icon ) ) {
+//     $mytitle = $title . '<i class="'. $item->$icon .'"></i>';
+//   }
+//
+//   return $mytitle;
+// }
+// add_filter( 'nav_menu_item_title', 'prefix_nav_icon', 10, 4 );
+
 
 ?>
