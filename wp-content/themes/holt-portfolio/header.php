@@ -29,7 +29,7 @@
 
 <!-- Header
 ============================================= -->
-<header id="header" class="full-header dark">
+<header id="header" class="full-header">
 
   <div id="header-wrap">
 
@@ -37,12 +37,12 @@
 
       <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-      <!-- Logo
-      ============================================= -->
-      <div id="logo">
-        <a href="<?php bloginfo('url');?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory');?>images/fsclogo@2x.png"><img src="<?php bloginfo('template_directory');?>images/fsclogo@2x.png"></a>
-        <a href="<?php bloginfo('url');?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory');?>images/logos/fsc-logo.png"><img src="<?php bloginfo('template_directory');?>images/logo/fsc-logo.png"></a>
-      </div> <!-- logo end -->
+			<!-- Logo
+			============================================= -->
+			<div id="logo">
+				<a href="index.html" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/logo-dark.png"><img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="Canvas Logo"></a>
+				<a href="index.html" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/logo-dark@2x.png"><img src="<?php bloginfo('template_directory');?>/images/logo@2x.png" alt="Canvas Logo"></a>
+			</div><!-- #logo end -->
 
       <!-- Primary Navigation
       ============================================= -->

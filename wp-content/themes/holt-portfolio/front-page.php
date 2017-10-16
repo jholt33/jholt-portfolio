@@ -6,7 +6,7 @@
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_directory');?>/images/homepage/desert-sky-01.jpeg');">
+						<div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_directory');?>/images/slider/swiper/italy.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">Some Sweet Title</h2>
@@ -77,7 +77,7 @@
 
 				</div>
 
-				<div class="section parallax dark bottommargin-lg" style="background-image: url('<?php bloginfo('template_directory');?>/images/services/home-testi-bg.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3">
+				<div class="section parallax dark bottommargin-lg" style="background-image: url('<?php bloginfo('template_directory');?>/images/slider/swiper/sky-ocean.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3">
 
 					<div class="container clearfix">
 

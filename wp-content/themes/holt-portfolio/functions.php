@@ -21,6 +21,14 @@ function holt_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'holt_theme_scripts' );
 
+// Font Awesome //
+
+add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
+function enqueue_load_fa() {
+    wp_enqueue_script( 'load-fa', 'https://use.fontawesome.com/a476842081.js' );
+}
+
+
 // Navigation Menus //
 
 add_filter( 'show_admin_bar', '__return_false' );
@@ -177,7 +185,7 @@ function my_wp_nav_menu_objects( $items, $args ) {
 		// append icon
 		if( $icon ) {
 
-			$item->title = ' <i class="'.$icon.'"></i>' . $item->title;
+			$item->title = ' <i class="fa fa-'.$icon.'" aria-hidden="true"></i>' . $item->title;
 
 		}
 

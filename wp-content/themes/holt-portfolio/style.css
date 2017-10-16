@@ -13534,3 +13534,7 @@ body:not(.no-transition) #wrapper,
     margin: 30px 0;
     border-top: 1px solid #EEE;
 }
+
+.dark a:hover {
+    color: #6a8aa8 !important;
+}
