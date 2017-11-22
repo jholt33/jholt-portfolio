@@ -13538,3 +13538,11 @@ body:not(.no-transition) #wrapper,
 .dark a:hover {
     color: #6a8aa8 !important;
 }
+
+#header #logo a img {
+    padding: 15px 0;
+}
+
+#header.sticky-header #logo a img {
+	padding: 5px 0;
+}
