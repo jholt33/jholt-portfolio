@@ -42,7 +42,7 @@
 			<!-- Logo
       ============================================= -->
       <div id="logo">
-        <a href="/" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.svg" data-sticky-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.svg" data-mobile-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.svg"><img src="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.svg" alt="Frontside Code Logo"></a>
+        <a href="/" class="standard-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-icon.svg" data-sticky-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-icon.svg" data-mobile-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-icon.svg"><img src="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.svg" alt="Frontside Code Logo"></a>
         <a href="/" class="retina-logo" data-dark-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-icon.svg" data-sticky-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-icon.svg" data-mobile-logo="<?php bloginfo('template_directory');?>/images/logos/fsc-icon.svg"><img src="<?php bloginfo('template_directory');?>/images/logos/fsc-logo.svg" alt="Frontside Code Logo"></a>
       </div><!-- #logo end -->
 
