@@ -27,14 +27,14 @@
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap notoppadding">
+			<div class="content-wrap">
 
 				<div class="container clearfix">
 
-					<div class="heading-block center topmargin">
-						<i class="fa fa-3x fa-briefcase" aria-hidden="true"></i>
-						<h3>Portfolio</h3>
-						<span>Websites I've build and/or contributed to</span>
+					<!-- <div class="center"><i class="fa fa-5x fa-briefcase" aria-hidden="true"></i></div> -->
+
+					<div class="fancy-title title-dotted-border title-center">
+						<h3>Front-End Web Development Projects</h3>
 					</div>
 
 					<!-- Portfolio Items
@@ -82,9 +82,18 @@
 
 					<div class="center topmargin-lg"><a href="/projects" class="button button-desc button-border button-rounded center">View More</a></div>
 
+
 				</div> <!-- container end -->
 
 			</div> <!-- container wrap end -->
+
+			<div class="promo promo-full promo-border header-stick bottommargin-lg">
+				<div class="container clearfix">
+					<h3>Call us today at <span>+91.22.57412541</span> or Email us at <span>support@canvas.com</span></h3>
+					<span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
+					<a href="#" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Browse Now</span></a>
+				</div>
+			</div>
 
 		</section> <!-- content end -->
 
