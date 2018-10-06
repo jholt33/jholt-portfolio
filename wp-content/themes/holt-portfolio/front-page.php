@@ -10,7 +10,7 @@
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">Welcome!</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">My name is Jeremy Holt. I am a Front-End Developer currently residing in Mesa, AZ. I have over 11 years experience coding and developing websites using some of the latest front-end technology.</p>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">My name is Jeremy Holt. I am a Webmaster / Front End Developer currently residing in Mesa, AZ. I have been coding and developing websites for the past 12 years using some of the latest front end technology for the web.</p>
 								</div>
 							</div>
 						</div>
@@ -34,7 +34,7 @@
 					<!-- <div class="center"><i class="fa fa-5x fa-briefcase" aria-hidden="true"></i></div> -->
 
 					<div class="fancy-title title-dotted-border title-center">
-						<h3>Front-End Web Development Projects</h3>
+						<h3>Projects</h3>
 					</div>
 
 					<!-- Portfolio Items

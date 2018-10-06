@@ -33,9 +33,9 @@ get_header(); ?>
 
 						<div class="row common-height clearfix">
 
-							<div class="col-sm-5 col-padding" style="background: url('/wp-content/themes/holt-portfolio/images/team/3.jpg') center center no-repeat; background-size: cover;"></div>
+							<!-- <div class="col-sm-5 col-padding" style="background: url('/wp-content/themes/holt-portfolio/images/team/3.jpg') center center no-repeat; background-size: cover;"></div> -->
 
-							<div class="col-sm-7 col-padding">
+							<div class="col-12 col-padding">
 								<div>
 									<div class="heading-block">
 										<span class="before-heading color">Webmaster / Front End Developer</span>

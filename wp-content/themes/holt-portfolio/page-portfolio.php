@@ -16,7 +16,7 @@ get_header(); ?>
 				<span><?php the_field( 'subtitle' ); ?></span>
 				<ol class="breadcrumb">
 					<li><a href="<?php bloginfo('url');?>">Home</a></li>
-					<li class="active">Portfolio</li>
+					<li class="active">Projects</li>
 				</ol>
 			</div>
 
